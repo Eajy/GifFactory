@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Gif Factory</string>
+
+    <string name="share_title">Share with</string>
+    <string name="share_failed">Failed to share.</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="decompose">Decompose Gif</string>
+    <string name="edit">Edit Image</string>
+    <string name="make">Make Gif</string>
 </resources>
