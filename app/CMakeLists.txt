@@ -51,5 +51,7 @@ add_library(gif-lib SHARED
                     src/main/jni/giflib/gif_hash.c
                     src/main/jni/giflib/gifalloc.c
                     src/main/jni/giflib/openbsd-reallocarray.c
-                    src/main/jni/giflib/quantize.c)
-target_link_libraries(gif-lib ${log-lib} z)
+                    src/main/jni/giflib/quantize.c
+                    src/main/cpp/GifNativeLib.cpp
+                    src/main/cpp/GifReader.cpp)
+target_link_libraries(gif-lib ${log-lib} z jnigraphics)

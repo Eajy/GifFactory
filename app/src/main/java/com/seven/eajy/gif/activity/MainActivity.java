@@ -1,5 +1,6 @@
 package com.seven.eajy.gif.activity;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        //去测试解码的activity
+//        startActivity(new Intent(this,TestGifDecoderActivity.class));
     }
 
     private void initView() {
